@@ -1,0 +1,5 @@
+build/*.js
+config/*.js
+vant-weapp
+src/utils/md5.js
+src/js/des.js

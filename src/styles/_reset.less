@@ -1,0 +1,168 @@
+// font-family
+@font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:      Georgia, "Times New Roman", Times, serif;
+@font-family-monospace:  Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base: @font-family-sans-serif;
+
+// 颜色
+@red:     #fb6f6f ;
+@yellow:  #f8d200 ;
+@blue:    #409ae6 ;
+@green:   #60d255 ;
+@black:   #000000 ;
+@white:   #ffffff ;
+@grey:    #aaaaaa ;
+@orange:  #ff7e32 ;
+@deepBlue:#336ec3 ;
+@deepRed: #FF6600 ;
+@rejectRed: #ff4221;
+
+@text-dark:   #333333;
+@text-normal: #808080;
+@text-light:  #b6b6b6;
+@text-blue:   #306cc5;
+@text-des: #999999;
+
+@color-bg:      #f5f5f5;
+@color-border:  #ebedf0 ;
+@color-padding: #d9d9d9;
+
+@block-1: #F5A623;
+@primary:#0099CC;
+@place: #f4f4f4;
+@default: #6B6B6B;
+@default-p: #9b9b9b;
+@tip-color:#FF6600;
+@list-title: #4A4A4A;
+@subject-color: #F5A623;
+@button-color:#FB8F3E;
+@border-color: #D1D0D1;
+// 字体
+@font-h1: 24px ;
+@font-h2: 22px ;
+@font-h3: 20px ;
+@font-h4: 18px ;
+@font-lg: 16px ;
+@font-md: 14px ;
+@font-sm: 12px ;
+@font-xs: 10px ;
+
+@rem-h1: 48px ;
+@rem-h2: 44px ;
+@rem-h3: 40px ;
+@rem-h4: 36px ;
+@rem-lg: 32px ;
+@rem-md: 28px ;
+@rem-sm: 24px ;
+@rem-xs: 20px ;
+
+@imgScale: 43.7vw;
+// 间距
+@panel-padding-white-vertical:0.3rem;
+@panel-padding-gap: 0.3rem;
+@space: 10px;
+@gap: 15px;
+@largegap: 30px;
+@middlegap: 20px;
+@gap-12:12.5px;
+@gap-13:13.5px;
+@gap-15:15.5px;
+@gap-17:17.5px;
+@gap-25:25px;
+@gap-27:27.5px;
+@gap-35: 35px;
+@gap-40:40px;
+@gap-45:45px;
+
+@vue-cell-padding: 3.7px 0;
+@van-cell-group-padding: 10px 0;
+html{
+  box-sizing: border-box;
+  -webkit-text-size-adjust:100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  word-break: break-word;
+  font-family: @font-family-base;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  -webkit-text-size-adjust:100%;
+  -webkit-overflow-scrolling: touch;
+  line-height: 1.5;
+}
+
+// *,
+// *:before,
+// *:after {
+//   box-sizing: inherit;
+// }
+
+html,head,title,base,link,meta,style,script,noscript,
+template,body,section,nav,article,aside,h1,h2,h3,h4,h5,h6,header,
+footer,address,main,p,hr,pre,blockquote,ol,ul,li,dl,
+dt,dd,figure,figcaption,a,em,strong,small,s,cite,
+q,dfn,abbr,data,time,code,var,samp,kbd,sub,i,span,br,wbr,ins,del,img,iframe,embed,
+object,param,video,audio,source,track,canvas,map,area,
+svg,table,caption,colgroup,col,tbody,thead,tfoot,
+tr,td,th,form,fieldset,legend,label,input,button,select,
+datalist,optgroup,option,textarea {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+button,
+input,
+select,
+textarea{
+  border-radius: 0;
+  -webkit-appearance: none;
+  background: transparent
+}
+
+a{
+  color: #000;
+  text-decoration: none
+}
+
+ul,
+ol,
+li{
+  list-style:none
+}
+
+table{
+  table-layout: fixed
+}
+
+audio,video,canvas{
+  display:inline-block
+}
+
+button,input[type='button']{
+  border: 1px solid transparent;
+  box-shadow: none
+}
+
+//textarea{
+//  overflow:auto;
+//  resize: none;
+//  padding: 8px
+//}
+
+:focus{
+  outline:0;
+  -webkit-tap-highlight-color:transparent
+}

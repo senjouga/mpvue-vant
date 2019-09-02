@@ -1,0 +1,9 @@
+.fs-make (@size) when (@size < 62){
+  .fs- {
+    &@{size} {
+      font-size: unit(@size, px) !important;
+    }
+  }
+  .fs-make(@size+1);
+}
+.fs-make(10);

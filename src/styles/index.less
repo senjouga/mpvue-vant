@@ -1,0 +1,86 @@
+@import './_reset.less';
+// animate
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+
+.split {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  div,span{
+    flex-shrink: 0;
+    &:not(:last-child):after {
+      content: '|';
+      display: inline-block;
+      color: inherit;
+      margin:0 16px;
+    }
+    &:empty:after {
+      content: '';
+      margin:0;
+      display: none;
+    }
+  }
+}
+
+.vux-1px, .vux-1px-t, .vux-1px-b, .vux-1px-tb, .vux-1px-l, .vux-1px-r {
+  position: relative;
+}
+.vux-1px-t {
+  border-top: 0.5px solid #E4E4E4;
+}
+
+.vux-1px-b {
+  border-bottom: 0.5px solid #E4E4E4;
+}
+
+
+.vux-1px-l {
+  border-left: 0.5px solid #E4E4E4;
+}
+
+.vux-1px-r {
+  border-right: 0.5px solid #E4E4E4;
+}
+
+
+// 样式
+.c-place {
+  height: 7.5px;
+  width: 100%;
+  background-color: #f4f4f4;
+  flex-shrink: 0;
+}
+
+// card
+.c-card{
+  padding: 0.3rem;
+  box-sizing: border-box;
+  border-radius: 35px;
+  background: #fff;
+}
+
+.personal h2 {
+  background: red;
+}
+
+// 字体颜色
+.green {
+  color: #36a864;
+}
+.red {
+  color: #f94931;
+}
+.c-primary {
+  color: @button-color;
+}
+.blue{
+  color: @primary;
+}
+
+
